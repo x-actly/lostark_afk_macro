@@ -1,6 +1,7 @@
 # lostark_afk_macro
 
 This is a simple Lost Ark Afk Macro to farm collectibles from named bosses in the Open World.
+<br />
 Before you start, stay close to a named boss location, change Game to Windowed Mode, start script
 and follow the instruction in the command promt window.
 
