@@ -7,8 +7,8 @@ and follow the instruction in the command promt window.
 The script is written in Python 3.10 with modules time, random, pyautogui and keyboard.
 Install pyautogui and keyboard with Windows command prompt:
   
-  pip install pyautogui
-  pip install keyboard
+pip install pyautogui
+pip install keyboard
 
 
 main.py contains an example script to loop the macro function in functions.py.
