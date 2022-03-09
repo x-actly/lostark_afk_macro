@@ -4,7 +4,7 @@ import functions
 
 # example script to loop the afk macro
 
-print("press space...\n")
+print("press space... and switch back into game\n")
 
 if keyboard.read_key() == "space":
 
