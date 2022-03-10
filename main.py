@@ -17,5 +17,7 @@ if keyboard.read_key() == "space":
 
         functions.simple_afk_script()
 
+
+
 else:
     print("wrong key...")

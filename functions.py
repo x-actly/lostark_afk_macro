@@ -14,7 +14,11 @@ def simple_afk_script():
     d_ability = random.uniform(0, 3)
     f_ability = random.uniform(0, 3)
 
-    # hotkey variables for healing potion and hp percent potion
+    # awakening ability variables for randomize the time.sleep function
+
+    v_ability = random.uniform(0, 3)
+
+    # hotkey potion, variables with randomize function
 
     one_battle_hotkey = random.uniform(0, 3)
     five_item_hotkey = random.uniform(0, 3)
@@ -52,6 +56,10 @@ def simple_afk_script():
     pyautogui.press('f')
     time.sleep(f_ability)
     print("key 'f' float in seconds", f_ability)
+
+    pyautogui.press('v')
+    time.sleep(v_ability)
+    print("key 'v' float in seconds", v_ability)
 
     pyautogui.press('1')
     time.sleep(one_battle_hotkey)
